@@ -3,7 +3,7 @@ class CreateTasks < ActiveRecord::Migration[7.1]
     create_table :tasks do |t|
       t.string :name
       t.string :reference
-      t.boolean :is_complete
+      t.boolean :isComplete
       t.string :type
       t.text :description
       t.string :priority
@@ -12,4 +12,3 @@ class CreateTasks < ActiveRecord::Migration[7.1]
     end
   end
 end
-

@@ -3,15 +3,15 @@
 one:
   name: MyString
   reference: MyString
-  is_complete: false
-  type: 
+  isComplete: false
+  type:
   description: MyText
   priority: MyString
 
 two:
   name: MyString
   reference: MyString
-  is_complete: false
-  type: 
+  isComplete: false
+  type:
   description: MyText
   priority: MyString

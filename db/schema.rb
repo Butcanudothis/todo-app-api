@@ -33,7 +33,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_02_11_110958) do
   create_table "tasks", force: :cascade do |t|
     t.string "name"
     t.string "reference"
-    t.boolean "is_complete"
+    t.boolean "isComplete"
     t.string "type"
     t.text "description"
     t.string "priority"
