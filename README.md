@@ -1,24 +1,21 @@
-# README
+# todo-api done in Ruby 💎
+* Ruby version 3.3.0
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Live Deployment at https://todoapi-netengine-onrails.onrender.com/
 
-Things you may want to cover:
+* test GET/POST on the endpoint /tasks
 
-* Ruby version
+* template POST Request body
 
-* System dependencies
+```
+{
+  "name": "Testing 1",
+  "reference": "FF092024",
+  "isComplete": false,
+  "type": "JobListing",
+  "description": "Testing 2",
+  "priority": "High"
+}
+```
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
